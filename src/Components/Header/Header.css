@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+  }
+  
+  .logo {
+    margin-left: auto;
+    margin-right: auto; /* remove default margin */
+  }
+  
+  #options {
+    margin-left: 5px;; /* add 5px distance between buttons */
+  }
+  
+  .rightbutton {
+    margin-right: 15px;
+  }
+  
