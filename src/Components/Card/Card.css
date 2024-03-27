@@ -1,0 +1,33 @@
+#card {
+	background-color: lightgrey;
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 10px;
+	margin-left: 10%;
+	margin-top: 2%;
+	width: 350px;
+	height: auto;
+	display: inline-block;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin-left: 75px;
+}
+
+h3{
+	margin-left: 10px;
+}
+
+p{
+	margin-left: 10px;
+}
+
+.sold{
+	color: darkred;
+}
+
+.inStock{
+	color: forestgreen;
+}
