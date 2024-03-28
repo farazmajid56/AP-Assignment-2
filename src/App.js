@@ -1,7 +1,7 @@
 import './App.css';
 import Card from './Components/Card/Card.js'
 import Header from './Components/Header/Header.js'
-
+import Form from "./Components/Form/Form";
 function App() {
   const data = [
     {path:"https://www.flashfootwear.com.pk/wp-content/uploads/2021/01/Blue-Ecosense-Lightning-Shoes-for-Kids-1.jpg",name:"Running Shoes",price:5000,isSold:true},
@@ -12,6 +12,7 @@ function App() {
     <>
       <Header />
       {data.map( x => <Card path={x.path} name={x.name} price={x.price} isSold={x.isSold} />)}
+      <Form />
     </>
   );
 }
