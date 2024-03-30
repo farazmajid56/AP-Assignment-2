@@ -17,8 +17,7 @@ function Form() {
             <h1>Is State Clear Now?</h1>
             <input type="text" name="text-field" placeholder="Type Here" onChange={handleChange} />
             <button onClick={handleClick}>Click Me</button>
-			{value !== '' &&
-            <p id="hidden">{value}</p>}
+			{value !== '' ? <h3 id="hidden">{value}</h3> : <></>}
         </div>
     )
 }
