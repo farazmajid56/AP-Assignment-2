@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: rgb(211, 211, 211);
+    border-bottom: darkgray 2px solid;
   }
   
   .logo {
@@ -20,7 +20,7 @@
   .lefticon {
     width: 30px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 5px;
   }
   
   .righticon{

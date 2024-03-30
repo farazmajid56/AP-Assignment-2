@@ -24,4 +24,3 @@ function Form() {
 }
 
 export default Form;
-//{value !== '' ? <p id="hidden">{value}</p> : <></>}

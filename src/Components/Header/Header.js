@@ -5,7 +5,7 @@ function Header(props) {
     <div className="container">
       <nav>
         <img className="lefticon" src="/options.svg" alt="Options"/>
-        <h1 className="logo">LOGO</h1>
+        <h1 className="logo">The Shoe Store</h1>
         <img className="righticon" src="/search.svg" alt="Search"/>
         <img className="righticon" src="/profile.svg" alt="Profile"/>
         <img className="righticon" src="/cart.svg" alt="Cart"/>

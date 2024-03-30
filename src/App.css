@@ -43,3 +43,10 @@
 #changeShoes{
   margin-top: 25px;
 }
+
+#cardContainer{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
