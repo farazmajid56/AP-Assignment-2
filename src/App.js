@@ -20,7 +20,7 @@ function App() {
   ]
   let renderFemaleShoes = femaleShoes.map((x, index) => <Card key={index} path={x.path} name={x.name} price={x.price} isSold={x.isSold} />);
 
-  const [Gender,setGender] = useState(false)
+  const [Gender,setGender] = useState(true)
   const ChangeShoes = () => setGender(!Gender)
 
   return (
