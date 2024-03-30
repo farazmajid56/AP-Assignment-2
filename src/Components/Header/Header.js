@@ -4,11 +4,11 @@ function Header(props) {
   return (
     <div className="container">
       <nav>
-        <button id="options">Options</button>
+        <img className="lefticon" src="/options.svg" alt="Options"/>
         <h1 className="logo">LOGO</h1>
-        <button className="rightbutton">Search</button>
-        <button className="rightbutton">Profile</button>
-        <button className="rightbutton">Cart</button>
+        <img className="righticon" src="/search.svg" alt="Search"/>
+        <img className="righticon" src="/profile.svg" alt="Profile"/>
+        <img className="righticon" src="/cart.svg" alt="Cart"/>
       </nav>
     </div>
   )
